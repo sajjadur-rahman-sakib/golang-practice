@@ -20,7 +20,7 @@ type User struct {
 func main() {
 	e := echo.New()
 
-	dsn := "host=localhost user=postgres password=sakib12345 dbname=mydb port=1234 sslmode=disable"
+	dsn := "host=localhost user=postgres password=sakib12345 dbname=mydb port=5432 sslmode=disable"
 	d, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
 	if err != nil {
 		panic(err)
