@@ -7,7 +7,7 @@ import (
 	"github.com/joho/godotenv"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
-	"main.go/command/models"
+	"main.go/internal/models"
 )
 
 var DB *gorm.DB

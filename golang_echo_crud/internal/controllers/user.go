@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo/v4"
-	"main.go/command/config"
-	"main.go/command/models"
+	"main.go/internal/config"
+	"main.go/internal/models"
 )
 
 func CreateUser(e echo.Context) error {

@@ -2,7 +2,7 @@ package routes
 
 import (
 	"github.com/labstack/echo/v4"
-	"main.go/command/controllers"
+	"main.go/internal/controllers"
 )
 
 func UserRoutes(e *echo.Echo) {

@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/labstack/echo/v4"
-	"main.go/command/config"
-	"main.go/command/routes"
+	"main.go/internal/config"
+	"main.go/internal/routes"
 )
 
 func main() {
